@@ -124,7 +124,10 @@ body {
 
 .mastfoot {
   color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,.5);    
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 
@@ -137,10 +140,6 @@ body {
   .masthead {
     position: fixed;
     top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
